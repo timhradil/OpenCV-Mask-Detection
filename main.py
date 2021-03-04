@@ -21,7 +21,7 @@ frameNum = 0
 maskScale = -20
 mask = False
 
-if vc.isOpened(): # try to get the first frame
+if vc.isOpened():
     rval, frame = vc.read()
     print("rval true")
 else:
