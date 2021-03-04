@@ -6,7 +6,7 @@
 import cv2
 import os
 
-maskPath = os.path.abspath(r'C:\Users\timhr\projects\python\maskDetetection\dataMoreNeg\cascade.xml')
+maskPath = os.path.abspath(r'cascade.xml')
 maskCasc = cv2.CascadeClassifier(maskPath)
 
 cv2.namedWindow('Mask Detection', cv2.WINDOW_NORMAL)
